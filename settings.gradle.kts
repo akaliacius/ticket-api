@@ -1,2 +1,2 @@
 rootProject.name = "ticket-api"
-include("sparkapp", "common")
+include("sparkapp", "common", "artist-service")

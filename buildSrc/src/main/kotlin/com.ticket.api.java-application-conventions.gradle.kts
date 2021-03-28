@@ -3,6 +3,10 @@ plugins {
     application
 }
 
+dependencies {
+    implementation("com.sparkjava:spark-core:2.9.3")
+}
+
 application {
     applicationDefaultJvmArgs = listOf("--enable-preview")
 }
