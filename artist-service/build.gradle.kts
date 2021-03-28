@@ -1,7 +1,7 @@
 plugins {
-    id("com.ticket.api.java-application-conventions")
+    id("com.ticket.api.java-library-conventions")
 }
 
-application {
-    mainClass.set("com.ticket.artist.ArtistService")
+dependencies {
+    implementation(project(":common"))
 }

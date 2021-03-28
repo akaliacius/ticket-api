@@ -1,6 +1,6 @@
-package com.ticket.common.artist.model;
+package com.ticket.artist.model;
 
-public record Artist (
+public record Artist(
         String name,
         String id,
         String imgSrc,

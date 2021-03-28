@@ -1,4 +1,4 @@
-package com.ticket.common.artist.model;
+package com.ticket.artist.model;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
