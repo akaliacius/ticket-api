@@ -4,6 +4,7 @@ plugins {
 
 dependencies {
     implementation(project(":artist-service"))
+    implementation(project(":venue-service"))
 }
 
 application {

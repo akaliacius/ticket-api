@@ -1,4 +1,4 @@
-package com.ticket.common.venue.model;
+package com.ticket.venue.model;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
