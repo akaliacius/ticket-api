@@ -4,6 +4,12 @@
 * Gradle wrapper `Gradle 6.8.3`
 
 ## Run instructions
+* `git clone git@github.com:akaliacius/ticket-api.git`
+* navigate to `PROJECT_ROOT`
+* `./gradlew clean build`
+* `./gradlew run`
+
+> It sould start Micronout app on Netty port 8080
 
 
 ## API Endpoints
