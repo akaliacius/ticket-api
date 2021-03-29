@@ -1,4 +1,4 @@
-package com.ticket.common.event.model;
+package com.ticket.event.model;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;

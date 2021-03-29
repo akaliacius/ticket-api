@@ -1,4 +1,4 @@
-package com.ticket.common.event.model;
+package com.ticket.event.model;
 
 import java.util.List;
 import java.util.Map;
