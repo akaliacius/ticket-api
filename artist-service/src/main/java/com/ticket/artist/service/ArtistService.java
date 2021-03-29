@@ -1,10 +1,9 @@
 package com.ticket.artist.service;
 
 import com.ticket.artist.model.Artist;
-import io.reactivex.rxjava3.core.Maybe;
-import io.reactivex.rxjava3.core.Observable;
+import io.reactivex.rxjava3.core.Flowable;
 
 public sealed interface ArtistService permits ArtistS3ApiService {
-    Observable<Artist> getAllArtists();
-    Maybe<Artist> getArtistById(String id);
+    Flowable<Artist> getAllArtists();
+    Flowable<Artist> getArtistById(String id);
 }
